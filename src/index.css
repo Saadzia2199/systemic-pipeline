@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink-0: #03050b;
+  --color-ink-1: #06080f;
+  --color-ink-2: #0b0f1a;
+  --color-ink-3: #131826;
+  --color-ink-4: #1c2434;
+  --color-line: #233049;
+  --color-line-soft: #1a2336;
+  --color-fog: #94a3b8;
+  --color-paper: #f3f5fb;
+  --color-snow: #ffffff;
+  --color-azure: #38bdf8;
+  --color-azure-2: #0ea5e9;
+  --color-azure-3: #0369a1;
+  --color-indigo-glow: #6366f1;
+  --color-violet-glow: #a855f7;
+  --color-gold: #f4cf6a;
+  --color-gold-2: #e2b341;
+  --color-mint: #5eead4;
+  --color-coral: #fb7185;
+
+  --font-display: "Playfair Display", ui-serif, Georgia, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+html,
+body {
+  background-color: #03050b;
+  color: #f3f5fb;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-sans);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #38bdf8;
+  color: #03050b;
+}
+
+/* Hide scrollbar on horizontal rails */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
