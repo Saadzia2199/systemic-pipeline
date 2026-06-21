@@ -764,7 +764,11 @@ function Hero() {
         </p>
       </Reveal>
 
-      <Reveal delay={0.3} className="mt-10 flex w-full flex-col items-center justify-center gap-8 sm:w-auto sm:flex-row sm:gap-14 md:gap-24">
+      <Reveal delay={0.3} className="mt-14 w-full max-w-5xl">
+        <VSLFacade />
+      </Reveal>
+
+      <Reveal delay={0.45} className="mt-12 flex w-full flex-col items-center justify-center gap-8 sm:w-auto sm:flex-row sm:gap-14 md:gap-24">
         <CTA size="lg" icon={<Calendar className="h-5 w-5" />}>
           Book the Technical Review
         </CTA>
@@ -773,11 +777,7 @@ function Hero() {
         </CTA>
       </Reveal>
 
-      <Reveal delay={0.45} className="mt-14 w-full max-w-5xl">
-        <VSLFacade />
-      </Reveal>
-
-      <Reveal delay={0.55} className="mt-10 w-full max-w-5xl">
+      <Reveal delay={0.6} className="mt-14 w-full max-w-5xl">
         <HeroPipelineDiagram />
       </Reveal>
     </section>
