@@ -69,7 +69,7 @@ const CALENDLY_URL = 'https://calendly.com/saadziasaadzia21/30min';
 const WHATSAPP_URL = 'https://wa.me/3165160899';
 const LINKEDIN_URL = 'https://www.linkedin.com/in/saadzia2199';
 const FOUNDER_IMG = 'https://i.ibb.co/ZR8VYm1X/saad-blue-3piece-pic.png';
-const VSL_VIDEO_ID = 'dQw4w9WgXcQ'; // TODO: replace with real VSL YouTube ID
+const VSL_VIDEO_ID = '1203194052'; // Vimeo video ID
 
 /* -------------------------------------------------------------------------- */
 /* BRAND STYLES (fonts, keyframes, helper classes)                            */
@@ -878,8 +878,8 @@ function VSLFacade() {
         ) : (
           <iframe
             title="Systemetic Pipeline VSL"
-            src={`https://www.youtube.com/embed/${VSL_VIDEO_ID}?autoplay=1&rel=0&modestbranding=1`}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            src={`https://player.vimeo.com/video/${VSL_VIDEO_ID}?autoplay=1&title=0&byline=0&portrait=0&dnt=1`}
+            allow="autoplay; fullscreen; picture-in-picture; encrypted-media"
             allowFullScreen
             className="absolute inset-0 h-full w-full border-0"
           />
