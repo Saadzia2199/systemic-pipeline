@@ -69,7 +69,7 @@ const CALENDLY_URL = 'https://calendly.com/saadziasaadzia21/30min';
 const WHATSAPP_URL = 'https://wa.me/3165160899';
 const LINKEDIN_URL = 'https://www.linkedin.com/in/saadzia2199';
 const FOUNDER_IMG = 'https://i.ibb.co/ZR8VYm1X/saad-blue-3piece-pic.png';
-const VSL_VIDEO_ID = '1203194052'; // Vimeo video ID
+const VSL_VIDEO_ID = 'p7147n745qrm1he'; // Wistia media ID
 
 /* -------------------------------------------------------------------------- */
 /* BRAND STYLES (fonts, keyframes, helper classes)                            */
@@ -878,8 +878,8 @@ function VSLFacade() {
         ) : (
           <iframe
             title="Systemetic Pipeline VSL"
-            src={`https://player.vimeo.com/video/${VSL_VIDEO_ID}?autoplay=1&title=0&byline=0&portrait=0&dnt=1`}
-            allow="autoplay; fullscreen; picture-in-picture; encrypted-media"
+            src={`https://fast.wistia.net/embed/iframe/${VSL_VIDEO_ID}?seo=false&videoFoam=true&autoPlay=true&playerColor=38bdf8`}
+            allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
             allowFullScreen
             className="absolute inset-0 h-full w-full border-0"
           />
