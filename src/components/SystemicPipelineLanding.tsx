@@ -69,7 +69,7 @@ const CALENDLY_URL = 'https://calendly.com/saadziasaadzia21/30min';
 const WHATSAPP_URL = 'https://wa.me/3165160899';
 const LINKEDIN_URL = 'https://www.linkedin.com/in/saadzia2199';
 const FOUNDER_IMG = 'https://i.ibb.co/ZR8VYm1X/saad-blue-3piece-pic.png';
-const VSL_VIDEO_ID = '4tw4rhwh4u'; // Wistia media ID
+const VSL_VIDEO_ID = '70vhah6hfz'; // Wistia media ID
 
 /* -------------------------------------------------------------------------- */
 /* BRAND STYLES (fonts, keyframes, helper classes)                            */
